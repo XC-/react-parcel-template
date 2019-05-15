@@ -4,8 +4,8 @@
   "description": "React application with ParcelJS",
   "main": "",
   "scripts": {
-    "start": "rm -rf dist/ && NODE_ENVIRONMENT=development parcel index.html --no-cache --open",
-    "build": "rm -rf dist/ && NODE_ENVIRONMENT=production parcel build index.html --no-cache --open"
+    "start": "NODE_ENVIRONMENT=development parcel index.html --open",
+    "build": "rm -rf dist/ && NODE_ENVIRONMENT=production parcel build index.html --no-cache"
   },
   "repository": {
     "type": "git",
