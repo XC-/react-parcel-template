@@ -16,3 +16,8 @@ React App template using ParcelJS
 - [Jest](https://jestjs.io/)
   - Not configured at the moment
   
+# Possible issues
+
+- Parcel is not detecting changes properly
+  - This may be because of a chokidar bug or feature (see: https://github.com/parcel-bundler/parcel/issues/221). It should be fixed
+    but if present, disable IDE's safe write feature and change detection should work properly again.
