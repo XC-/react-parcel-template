@@ -1,0 +1,46 @@
+{
+  "name": "react-parcel-template",
+  "version": "1.0.0",
+  "description": "React application with ParcelJS",
+  "main": "",
+  "scripts": {
+    "start": "rm -rf dist/ && NODE_ENVIRONMENT=development parcel index.html --no-cache --open",
+    "build": "rm -rf dist/ && NODE_ENVIRONMENT=production parcel build index.html --no-cache --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XC-/react-parcel-template.git"
+  },
+  "keywords": [
+    "react",
+    "parcel",
+    "template"
+  ],
+  "author": "Aki Mäkinen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XC-/react-parcel-template/issues"
+  },
+  "homepage": "https://github.com/XC-/react-parcel-template#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "dotenv": "^8.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "jest": "^24.8.0",
+    "parcel-bundler": "^1.12.3",
+    "postcss-modules": "^1.4.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-test-renderer": "^16.8.6",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "sass": "^1.20.1"
+  }
+}
